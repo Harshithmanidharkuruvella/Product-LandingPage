@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitGenius - Your AI Personal Trainer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-dumbbell"></i>
+                <span>FitGenius</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-outline">Try Free</a>
+                <a href="#pricing" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Your <span class="highlight">AI Personal Trainer</span><br>
+                        Available 24/7
+                    </h1>
+                    <p class="hero-subtitle">
+                        Transform your fitness journey with FitGenius - the revolutionary AI-powered app that creates 
+                        personalized workouts, tracks your progress, and adapts to your goals in real-time.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="50000">0</span>
+                            <span class="stat-label">Active Users</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="1000000">0</span>
+                            <span class="stat-label">Workouts Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="95">0</span>
+                            <span class="stat-label">Success Rate %</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#pricing" class="btn btn-primary btn-large">
+                            <i class="fas fa-rocket"></i>
+                            Start Your Journey
+                        </a>
+                        <a href="#features" class="btn btn-secondary btn-large">
+                            <i class="fas fa-play"></i>
+                            Watch Demo
+                        </a>
+                    </div>
+                    <div class="hero-badges">
+                        <div class="badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.9/5 Rating</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-download"></i>
+                            <span>1M+ Downloads</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-award"></i>
+                            <span>App of the Year</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <img src="/placeholder.svg?height=600&width=300" alt="FitGenius App Interface" class="app-screenshot">
+                        <div class="floating-elements">
+                            <div class="floating-card card-1">
+                                <i class="fas fa-heartbeat"></i>
+                                <span>Heart Rate: 142 BPM</span>
+                            </div>
+                            <div class="floating-card card-2">
+                                <i class="fas fa-fire"></i>
+                                <span>Calories: 320</span>
+                            </div>
+                            <div class="floating-card card-3">
+                                <i class="fas fa-trophy"></i>
+                                <span>Goal Achieved!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-subtitle">
+                    Discover how FitGenius revolutionizes your fitness experience with cutting-edge AI technology
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Powered Workouts</h3>
+                    <p>Our advanced AI analyzes your fitness level, preferences, and goals to create personalized workout plans that evolve with your progress.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Adaptive difficulty levels</li>
+                        <li><i class="fas fa-check"></i> Goal-oriented training</li>
+                        <li><i class="fas fa-check"></i> Real-time adjustments</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Real-Time Form Correction</h3>
+                    <p>Using computer vision technology, FitGenius monitors your form and provides instant feedback to prevent injuries and maximize results.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Motion tracking</li>
+                        <li><i class="fas fa-check"></i> Instant feedback</li>
+                        <li><i class="fas fa-check"></i> Injury prevention</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Smart Progress Tracking</h3>
+                    <p>Comprehensive analytics and insights help you understand your progress, identify patterns, and stay motivated on your fitness journey.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Detailed analytics</li>
+                        <li><i class="fas fa-check"></i> Progress visualization</li>
+                        <li><i class="fas fa-check"></i> Achievement badges</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Nutrition Guidance</h3>
+                    <p>Get personalized meal plans and nutrition advice that complement your workout routine for optimal results and faster recovery.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Custom meal plans</li>
+                        <li><i class="fas fa-check"></i> Calorie tracking</li>
+                        <li><i class="fas fa-check"></i> Macro optimization</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Community Support</h3>
+                    <p>Connect with like-minded fitness enthusiasts, share your progress, and get motivated by our supportive community.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Social challenges</li>
+                        <li><i class="fas fa-check"></i> Progress sharing</li>
+                        <li><i class="fas fa-check"></i> Expert guidance</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Cross-Platform Sync</h3>
+                    <p>Seamlessly sync your data across all devices and integrate with popular fitness wearables for a complete health ecosystem.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Multi-device sync</li>
+                        <li><i class="fas fa-check"></i> Wearable integration</li>
+                        <li><i class="fas fa-check"></i> Cloud backup</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">App Screenshots</h2>
+                <p class="section-subtitle">
+                    Take a look at FitGenius in action and see how easy it is to achieve your fitness goals
+                </p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=250" alt="Workout Dashboard" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Workout Dashboard</h4>
+                        <p>Your personalized fitness hub</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=250" alt="Exercise Library" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Exercise Library</h4>
+                        <p>1000+ exercises with video guides</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=250" alt="Progress Tracking" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Progress Tracking</h4>
+                        <p>Detailed analytics and insights</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=250" alt="Nutrition Plans" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Nutrition Plans</h4>
+                        <p>Personalized meal recommendations</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=250" alt="Community Features" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Community</h4>
+                        <p>Connect with fitness enthusiasts</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=250" alt="AI Coach" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>AI Coach</h4>
+                        <p>Your personal fitness assistant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Choose Your Plan</h2>
+                <p class="section-subtitle">
+                    Start your fitness journey today with our flexible pricing options
+                </p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">9</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Perfect for beginners</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Basic AI workouts</li>
+                        <li><i class="fas fa-check"></i> Progress tracking</li>
+                        <li><i class="fas fa-check"></i> Exercise library</li>
+                        <li><i class="fas fa-check"></i> Mobile app access</li>
+                        <li><i class="fas fa-times"></i> Form correction</li>
+                        <li><i class="fas fa-times"></i> Nutrition plans</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-full">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">19</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>For serious fitness enthusiasts</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Advanced AI workouts</li>
+                        <li><i class="fas fa-check"></i> Real-time form correction</li>
+                        <li><i class="fas fa-check"></i> Detailed analytics</li>
+                        <li><i class="fas fa-check"></i> Nutrition guidance</li>
+                        <li><i class="fas fa-check"></i> Community access</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-full">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">39</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Ultimate fitness experience</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Pro</li>
+                        <li><i class="fas fa-check"></i> 1-on-1 coaching calls</li>
+                        <li><i class="fas fa-check"></i> Custom meal prep</li>
+                        <li><i class="fas fa-check"></i> Advanced integrations</li>
+                        <li><i class="fas fa-check"></i> Early access features</li>
+                        <li><i class="fas fa-check"></i> 24/7 support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-full">Get Started</a>
+                </div>
+            </div>
+            <div class="pricing-guarantee">
+                <i class="fas fa-shield-alt"></i>
+                <span>30-day money-back guarantee • Cancel anytime • No hidden fees</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Users Say</h2>
+                <p class="section-subtitle">
+                    Join thousands of satisfied users who have transformed their fitness journey with FitGenius
+                </p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"FitGenius completely transformed my workout routine. The AI recommendations are spot-on, and I've seen incredible results in just 3 months!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Sarah Johnson" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Marketing Manager</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The form correction feature is a game-changer. It's like having a personal trainer with me 24/7. My technique has improved dramatically!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Mike Chen" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Mike Chen</h4>
+                            <span>Software Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"I love how the app adapts to my schedule and energy levels. The nutrition guidance has helped me fuel my workouts better than ever."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Emily Rodriguez" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <span>Fitness Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Ready to Start Your Fitness Journey?</h2>
+                    <p>Get in touch with us and let FitGenius transform the way you approach fitness. Our team is here to help you succeed.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <span>support@fitgenius.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <span>123 Fitness Street, Health City, HC 12345</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <h3>Send us a message</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="pricing">Pricing Questions</option>
+                                <option value="partnership">Partnership</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>FitGenius</span>
+                    </div>
+                    <p>Transform your fitness journey with AI-powered personal training that adapts to your goals and lifestyle.</p>
+                    <div class="app-downloads">
+                        <a href="#" class="download-btn">
+                            <i class="fab fa-apple"></i>
+                            <div>
+                                <span>Download on the</span>
+                                <strong>App Store</strong>
+                            </div>
+                        </a>
+                        <a href="#" class="download-btn">
+                            <i class="fab fa-google-play"></i>
+                            <div>
+                                <span>Get it on</span>
+                                <strong>Google Play</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#gallery">Screenshots</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitGenius. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
